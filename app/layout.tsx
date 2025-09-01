@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "NestJS",
     "Web Developer Sri Lanka",
   ],
-  metadataBase: new URL("https://lahiru-s-portfolio.vercel.app"),
+  metadataBase: new URL("https://lahirukarunathilaka.web.lk"),
   alternates: {
     canonical: "/",
   },
