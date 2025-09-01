@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "NestJS",
     "Web Developer Sri Lanka",
   ],
-  metadataBase: new URL("https://lahiru-s-portfolio.vercel.app"),
+  metadataBase: new URL("https://lahirukarunathilaka.web.lk"),
   alternates: {
     canonical: "/",
   },
@@ -46,7 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script
+        {/* <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CV583NR2Q7"
         ></Script>
@@ -57,7 +57,7 @@ export default function RootLayout({
   gtag('js', new Date());
 
   gtag('config', 'G-CV583NR2Q7');`}
-        </Script>
+        </Script> */}
       </head>
       <body className={inter.className}>
         {" "}
