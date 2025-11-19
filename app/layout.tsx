@@ -46,6 +46,32 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Website Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Lahiru Yasas Karunathilaka Portfolio",
+              url: "https://lahirukarunathilaka.web.lk",
+            }),
+          }}
+        />
+
+        {/* Person Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Lahiru Yasas Karunathilaka",
+              url: "https://lahirukarunathilaka.web.lk",
+              sameAs: ["https://www.linkedin.com/in/lahiru-yasas-2ba260214/"],
+            }),
+          }}
+        />
         {/* <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-CV583NR2Q7"
