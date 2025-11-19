@@ -96,6 +96,16 @@ export default function RootLayout({
         >
           {children}
           <ToastContainer />
+          {/* === Elfsight AI Chatbot Widget === */}
+          <Script
+            src="https://elfsightcdn.com/platform.js"
+            strategy="lazyOnload"
+          />
+          <div
+            className="elfsight-app-006a6e38-d63c-4648-95a8-c7a709c3d04e overflow-hidden"
+            data-elfsight-app-lazy
+          ></div>
+          {/* === End Elfsight Widget === */}
         </ThemeProvider>
       </body>
     </html>
