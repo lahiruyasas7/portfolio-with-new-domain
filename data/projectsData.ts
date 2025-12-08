@@ -28,9 +28,9 @@ export const projects: Project[] = [
     description:
       "Developed a full-stack T-shirt design and order management platform for a clothing company, featuring an admin panel for managing products, designers, and order workflows, and a designer portal for creating and uploading T-shirt designs. Built using Next.js, Tailwind CSS, Redux-Saga, and ApexCharts on the frontend, with NestJS, Redis, and BullMQ powering backend operations, and deployed on AWS S3 and EC2 for scalable storage and hosting.",
     images: [
-      "custom-images/posify-all-shops.PNG",
-      "custom-images/posify-my-shop.PNG",
-      "custom-images/posify-subscription.PNG",
+      "custom-images/optimized_design-1.webp",
+      "custom-images/optimized_admin-1.webp",
+      "custom-images/optimized_admin-2.webp",
     ],
   },
   {
