@@ -31,6 +31,8 @@ export const projects: Project[] = [
       "custom-images/optimized_design-1.webp",
       "custom-images/optimized_admin-1.webp",
       "custom-images/optimized_admin-2.webp",
+      "custom-images/fnlk-admin-2.PNG",
+      "custom-images/fnlk-admin-4.PNG",
     ],
   },
   {
