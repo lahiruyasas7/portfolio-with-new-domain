@@ -52,12 +52,12 @@ export const projects: Project[] = [
     description:
       "A website view latest trending movies, Tv Shows and check their details with authentication/ google login. Custom Video uploading with aws s3 bucket with queueing using redis and bullmq. used technologies are react js, axios, redux saga, tailwind, Nest.js, Prisma, postgresql.",
     images: [
-      "/custom-images/movie-ratting-app-home.png",
-      "/custom-images/movie-rating-single-view-black.PNG",
-      "/custom-images/movie-rating-app-tv-shows.png",
-      "/custom-images/movieRatingLogin.PNG",
-      "/custom-images/movie-ratings-register.PNG",
-      "/custom-images/movie-rating-app-video.PNG",
+      "/custom-images/movie-ratting-app-home.jpg",
+      "/custom-images/movie-rating-single-view-black.jpg",
+      "/custom-images/movie-rating-app-tv-shows.jpg",
+      "/custom-images/movieRatingLogin.jpg",
+      "/custom-images/movie-ratings-register.jpg",
+      "/custom-images/movie-rating-app-video.jpg",
     ],
   },
   {
