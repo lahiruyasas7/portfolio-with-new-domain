@@ -77,14 +77,14 @@ export const projects: Project[] = [
     description:
       "This job portal for mainly for day jobs and part time jobs. there are 3 roles accounts. Admin, Employer, Employee. Employee post, update, delete job posts. system shows the nearest job for job seekers. also system suggest best job applier for employee. use technologies are Html, css, javascript, bootstrap, php, mysql.",
     images: [
-      "/custom-images/jobPortal1.PNG",
-      "/custom-images/jobPortal2.PNG",
-      "/custom-images/jobPortal3.PNG",
-      "/custom-images/jobPortal4.PNG",
-      "/custom-images/jobPortal5.PNG",
-      "/custom-images/jobPortal6.PNG",
-      "/custom-images/jobPortal7.PNG",
-      "/custom-images/jobPortal8.PNG",
+      "/custom-images/jobPortal1.jpg",
+      "/custom-images/jobPortal2.jpg",
+      "/custom-images/jobPortal3.jpg",
+      "/custom-images/jobPortal4.jpg",
+      "/custom-images/jobPortal5.jpg",
+      "/custom-images/jobPortal6.jpg",
+      "/custom-images/jobPortal7.jpg",
+      "/custom-images/jobPortal8.jpg",
     ],
   },
   {
