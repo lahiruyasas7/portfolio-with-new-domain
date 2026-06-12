@@ -66,8 +66,8 @@ export const projects: Project[] = [
     description:
       "An online compiler with error showing for c, c++, java, python, html. use technologies are react js, monaco editor, bootstrap, react-select",
     images: [
-      "custom-images/onlineCompilerProject2.PNG",
-      "custom-images/onlineCompiler1.PNG",
+      "custom-images/onlineCompilerProject2.jpg",
+      "custom-images/onlineCompiler1.jpg",
     ],
   },
 
