@@ -93,8 +93,8 @@ export const projects: Project[] = [
     description:
       "User can check weather details of main cities of the world. used technologies are react js, axios, bootstrap",
     images: [
-      "/custom-images/weatherApp1.PNG",
-      "/custom-images/weatherApp2.PNG",
+      "/custom-images/weatherApp1.jpg",
+      "/custom-images/weatherApp2.jpg",
     ],
   },
 ];
