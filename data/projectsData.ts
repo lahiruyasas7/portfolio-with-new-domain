@@ -41,9 +41,9 @@ export const projects: Project[] = [
     description:
       "PosifyLK is a multi-tenant point-of-sale system built for business owners managing multiple shops, enabling them to handle employees, resources, shops, products, and customer orders from a single platform. The system supports subscription-based access with seamless PayHere integration for payments, while providing a secure and scalable backend powered by NestJS, PostgreSQL, and Prisma. A modern, responsive admin dashboard built with Next.js ensures a smooth user experience for managing day-to-day operations efficiently.",
     images: [
-      "custom-images/posify-all-shops.PNG",
-      "custom-images/posify-my-shop.PNG",
-      "custom-images/posify-subscription.PNG",
+      "custom-images/posify-all-shops.jpg",
+      "custom-images/posify-my-shop.jpg",
+      "custom-images/posify-subscription.jpg",
     ],
   },
   {
