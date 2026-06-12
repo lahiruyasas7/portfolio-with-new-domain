@@ -15,6 +15,8 @@ export const metadata: Metadata = {
   keywords: [
     "Lahiru Yasas",
     "Karunathilaka",
+    "Lahiru Yasas Karunathilaka",
+    "Lahiru Karunathilaka",
     "Full Stack Software Engineer",
     "Next.js Portfolio",
     "React Developer",
@@ -72,9 +74,9 @@ export default function RootLayout({
             }),
           }}
         />
-        {/* <Script
+        <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-CV583NR2Q7"
+          src="https://www.googletagmanager.com/gtag/js?id=G-4YRPPPS33M"
         ></Script>
         <Script id="google-analytics">
           {`
@@ -82,8 +84,8 @@ export default function RootLayout({
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-CV583NR2Q7');`}
-        </Script> */}
+  gtag('config', 'G-4YRPPPS33M');`}
+        </Script>
       </head>
       <body className={inter.className}>
         {" "}
