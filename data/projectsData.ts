@@ -9,6 +9,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: 8,
+    title: "Sales, Inventory and Invoicing Management System",
+    description:
+      "A client-built business management system for a hardware wholesale supplier. Enables the client to manage product inventory with cost and profit margins, maintain customer records, track payments, and generate invoices — streamlining day-to-day sales operations from a single dashboard.",
+    images: [
+      "custom-images/dipal-payments.jpg",
+      "custom-images/dipal-add-invoice.jpg",
+      "custom-images/dipal-add-payments.jpg",
+      "custom-images/dipal-customers.jpg",
+      "custom-images/dipal-invoices.jpg",
+      "custom-images/dipal-items.jpg",
+      "custom-images/dipal-login.jpg",
+    ],
+    github: 'https://github.com/lahiruyasas7/dipals-inventory-management-system',
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "Typescript",
+      "Prisma",
+      "Postgresql",
+      "Vercel",
+      "Prisma DB",
+    ],
+  },
+  {
     id: 1,
     title: "Learning Material System",
     description:
@@ -23,8 +48,15 @@ export const projects: Project[] = [
       "custom-images/lahiru-s-acadamy10.jpg",
       "custom-images/lahiru-s-acadamy11.jpg",
     ],
-    tech: ["Next.js", "Tailwind", "Redux Saga", "NestJS", "TypeORM", "PostgreSQL"],
-    github: "https://github.com/yourusername/learning-material-system",
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "Redux Saga",
+      "NestJS",
+      "TypeORM",
+      "PostgreSQL",
+    ],
+    github: "https://github.com/lahiruyasas7/zkoop-academy-LMS",
   },
   {
     id: 2,
@@ -38,7 +70,16 @@ export const projects: Project[] = [
       "custom-images/fnlk-admin-2.jpg",
       "custom-images/fnlk-admin-4.jpg",
     ],
-    tech: ["Next.js", "Tailwind", "Redux Saga", "ApexCharts", "NestJS", "Redis", "BullMQ", "AWS"],
+    tech: [
+      "Next.js",
+      "Tailwind",
+      "Redux Saga",
+      "ApexCharts",
+      "NestJS",
+      "Redis",
+      "BullMQ",
+      "AWS",
+    ],
     github: "https://github.com/yourusername/fashionnestlk",
   },
   {
@@ -67,7 +108,17 @@ export const projects: Project[] = [
       "/custom-images/movie-ratings-register.jpg",
       "/custom-images/movie-rating-app-video.jpg",
     ],
-    tech: ["React", "Axios", "Redux Saga", "Tailwind", "NestJS", "Prisma", "PostgreSQL", "AWS S3", "BullMQ"],
+    tech: [
+      "React",
+      "Axios",
+      "Redux Saga",
+      "Tailwind",
+      "NestJS",
+      "Prisma",
+      "PostgreSQL",
+      "AWS S3",
+      "BullMQ",
+    ],
     github: "https://github.com/yourusername/movies-tv-app",
   },
   {
