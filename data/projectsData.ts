@@ -22,7 +22,8 @@ export const projects: Project[] = [
       "custom-images/dipal-items.jpg",
       "custom-images/dipal-login.jpg",
     ],
-    github: 'https://github.com/lahiruyasas7/dipals-inventory-management-system',
+    github:
+      "https://github.com/lahiruyasas7/dipals-inventory-management-system",
     tech: [
       "Next.js",
       "Tailwind",
@@ -56,7 +57,7 @@ export const projects: Project[] = [
       "TypeORM",
       "PostgreSQL",
     ],
-    github: "https://github.com/lahiruyasas7/zkoop-academy-LMS",
+    // github: "https://github.com/lahiruyasas7/zkoop-academy-LMS",
   },
   {
     id: 2,
@@ -80,7 +81,7 @@ export const projects: Project[] = [
       "BullMQ",
       "AWS",
     ],
-    github: "https://github.com/yourusername/fashionnestlk",
+    // github: "https://github.com/yourusername/fashionnestlk",
   },
   {
     id: 3,
@@ -93,7 +94,7 @@ export const projects: Project[] = [
       "custom-images/posify-subscription.jpg",
     ],
     tech: ["Next.js", "Tailwind", "NestJS", "PostgreSQL", "Prisma", "PayHere"],
-    github: "https://github.com/yourusername/posifylk",
+    // github: "https://github.com/yourusername/posifylk",
   },
   {
     id: 4,
@@ -119,7 +120,7 @@ export const projects: Project[] = [
       "AWS S3",
       "BullMQ",
     ],
-    github: "https://github.com/yourusername/movies-tv-app",
+    github: "https://github.com/lahiruyasas7/React-Movie-Rating-App",
   },
   {
     id: 5,
@@ -131,7 +132,7 @@ export const projects: Project[] = [
       "custom-images/onlineCompiler1.jpg",
     ],
     tech: ["React", "Monaco Editor", "Bootstrap", "react-select"],
-    github: "https://github.com/yourusername/online-compiler",
+    github: "https://github.com/lahiruyasas7/simple-online-compiler",
   },
   {
     id: 6,
@@ -149,7 +150,7 @@ export const projects: Project[] = [
       "/custom-images/jobPortal8.jpg",
     ],
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
-    github: "https://github.com/yourusername/job-portal",
+    github: "https://github.com/lahiruyasas7/Undergraduate_Project",
   },
   {
     id: 7,
@@ -161,6 +162,6 @@ export const projects: Project[] = [
       "/custom-images/weatherApp2.jpg",
     ],
     tech: ["React", "Axios", "Bootstrap"],
-    github: "https://github.com/yourusername/weather-app",
+    github: "https://github.com/lahiruyasas7/Weather-App",
   },
 ];
