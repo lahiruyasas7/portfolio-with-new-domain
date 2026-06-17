@@ -34,7 +34,7 @@ const ProjectCard = ({
                 <img
                   src={img}
                   alt={`${project.title} screenshot ${idx + 1}`}
-                  className="w-full h-52 sm:h-60 md:h-64 object-cover block"
+                  className="w-full h-52 sm:h-60 md:h-64 object-contain block"
                   loading="lazy"
                 />
               </div>
