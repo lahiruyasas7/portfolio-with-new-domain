@@ -14,13 +14,13 @@ export const projects: Project[] = [
     description:
       "A client-built business management system for a hardware wholesale supplier. Enables the client to manage product inventory with cost and profit margins, maintain customer records, track payments, and generate invoices — streamlining day-to-day sales operations from a single dashboard.",
     images: [
-      "custom-images/dipal-payments.jpg",
-      "custom-images/dipal-add-invoice.jpg",
-      "custom-images/dipal-add-payments.jpg",
-      "custom-images/dipal-customers.jpg",
-      "custom-images/dipal-invoices.jpg",
-      "custom-images/dipal-items.jpg",
-      "custom-images/dipal-login.jpg",
+      "/custom-images/dipal-payments.jpg",
+      "/custom-images/dipal-add-invoice.jpg",
+      "/custom-images/dipal-add-payments.jpg",
+      "/custom-images/dipal-customers.jpg",
+      "/custom-images/dipal-invoices.jpg",
+      "/custom-images/dipal-items.jpg",
+      "/custom-images/dipal-login.jpg",
     ],
     github:
       "https://github.com/lahiruyasas7/dipals-inventory-management-system",
@@ -40,14 +40,14 @@ export const projects: Project[] = [
     description:
       "A fully functional Learning Material Platform. Users can create courses and exam categories, add questions with answers, and manage user details, experience, education, and project entries.",
     images: [
-      "custom-images/academy-new-courses.jpg",
-      "custom-images/course-single-view.jpg",
-      "custom-images/exams-view.jpg",
-      "custom-images/lahiru-s-acadamy7.jpg",
-      "custom-images/lahiru-s-acadamy8.jpg",
-      "custom-images/lahiru-s-acadamy9.jpg",
-      "custom-images/lahiru-s-acadamy10.jpg",
-      "custom-images/lahiru-s-acadamy11.jpg",
+      "/custom-images/academy-new-courses.jpg",
+      "/custom-images/course-single-view.jpg",
+      "/custom-images/exams-view.jpg",
+      "/custom-images/lahiru-s-acadamy7.jpg",
+      "/custom-images/lahiru-s-acadamy8.jpg",
+      "/custom-images/lahiru-s-acadamy9.jpg",
+      "/custom-images/lahiru-s-acadamy10.jpg",
+      "/custom-images/lahiru-s-acadamy11.jpg",
     ],
     tech: [
       "Next.js",
@@ -65,11 +65,11 @@ export const projects: Project[] = [
     description:
       "Full-stack T-shirt design and order management platform featuring an admin panel for managing products, designers, and order workflows, and a designer portal for creating and uploading designs. Deployed on AWS S3 and EC2.",
     images: [
-      "custom-images/optimized_design-1.jpg",
-      "custom-images/optimized_admin-1.jpg",
-      "custom-images/optimized_admin-2.jpg",
-      "custom-images/fnlk-admin-2.jpg",
-      "custom-images/fnlk-admin-4.jpg",
+      "/custom-images/optimized_design-1.jpg",
+      "/custom-images/optimized_admin-1.jpg",
+      "/custom-images/optimized_admin-2.jpg",
+      "/custom-images/fnlk-admin-2.jpg",
+      "/custom-images/fnlk-admin-4.jpg",
     ],
     tech: [
       "Next.js",
@@ -89,9 +89,9 @@ export const projects: Project[] = [
     description:
       "Multi-tenant point-of-sale system for business owners managing multiple shops — handling employees, resources, products, and customer orders from one platform with subscription-based PayHere payment integration.",
     images: [
-      "custom-images/posify-all-shops.jpg",
-      "custom-images/posify-my-shop.jpg",
-      "custom-images/posify-subscription.jpg",
+      "/custom-images/posify-all-shops.jpg",
+      "/custom-images/posify-my-shop.jpg",
+      "/custom-images/posify-subscription.jpg",
     ],
     tech: ["Next.js", "Tailwind", "NestJS", "PostgreSQL", "Prisma", "PayHere"],
     // github: "https://github.com/yourusername/posifylk",
@@ -128,8 +128,8 @@ export const projects: Project[] = [
     description:
       "An in-browser compiler with real-time error highlighting for C, C++, Java, Python, and HTML — powered by Monaco Editor, the same editor that powers VS Code.",
     images: [
-      "custom-images/onlineCompilerProject2.jpg",
-      "custom-images/onlineCompiler1.jpg",
+      "/custom-images/onlineCompilerProject2.jpg",
+      "/custom-images/onlineCompiler1.jpg",
     ],
     tech: ["React", "Monaco Editor", "Bootstrap", "react-select"],
     github: "https://github.com/lahiruyasas7/simple-online-compiler",
