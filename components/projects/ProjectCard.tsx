@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { projects, Project } from "@/data/projectsData";
+import Image from "next/image";
 
 const ProjectCard = ({
   project,
@@ -30,12 +31,20 @@ const ProjectCard = ({
             style={{ transform: `translateX(-${current * 100}%)` }}
           >
             {project.images.map((img, idx) => (
-              <div key={idx} className="w-full flex-shrink-0">
-                <img
+              <div
+                key={idx}
+                className="relative w-full flex-shrink-0 h-52 sm:h-60 md:h-64"
+              >
+                <Image
                   src={img}
                   alt={`${project.title} screenshot ${idx + 1}`}
-                  className="w-full h-52 sm:h-60 md:h-64 object-contain block"
-                  loading="lazy"
+                  fill
+                  className="object-contain"
+                  sizes="(max-width: 768px) 100vw, 46vw"
+                  placeholder="blur"
+                  blurDataURL="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwZDBkMWEiLz48L3N2Zz4="
+                  loading={index === 0 && idx === 0 ? "eager" : "lazy"}
+                  priority={index === 0 && idx === 0}
                 />
               </div>
             ))}
