@@ -5,6 +5,7 @@ import { ThemeProvider } from "./provide";
 import Navbar from "@/components/Navbar";
 import { ToastContainer } from "react-toastify";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -109,6 +110,7 @@ export default function RootLayout({
           ></div>
           {/* === End Elfsight Widget === */}
         </ThemeProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
