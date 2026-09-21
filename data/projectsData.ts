@@ -14,13 +14,14 @@ export const projects: Project[] = [
     description:
       "A client-built business management system for a hardware wholesale supplier. Enables the client to manage product inventory with cost and profit margins, maintain customer records, track payments, and generate invoices — streamlining day-to-day sales operations from a single dashboard.",
     images: [
+      "/custom-images/dipal-login.jpg",
+      "/custom-images/dipal-add-invoice-new.jpg",
       "/custom-images/dipal-payments.jpg",
-      "/custom-images/dipal-add-invoice.jpg",
-      "/custom-images/dipal-add-payments.jpg",
+      "/custom-images/dipal-invoice-view.jpg",
+      "/custom-images/dipal-add-payment-new.PNG",
       "/custom-images/dipal-customers.jpg",
       "/custom-images/dipal-invoices.jpg",
       "/custom-images/dipal-items.jpg",
-      "/custom-images/dipal-login.jpg",
     ],
     github:
       "https://github.com/lahiruyasas7/dipals-inventory-management-system",
